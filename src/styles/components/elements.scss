@@ -1,0 +1,14 @@
+.social-media{
+  transform: rotate(-90deg);
+  transform-origin: left bottom 0;
+  position: absolute;
+  top: 42%;
+  left: 50px;
+  a{
+    color: var(--primary);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    margin: 0 1em;
+  }
+}

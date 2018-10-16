@@ -1,0 +1,39 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 1.3em;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  .logo{
+    display: flex;
+
+    img{
+      margin-bottom: 0;
+      width: 140px;
+      min-width: 140px;
+    }
+  }
+  .menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 0;
+    li{
+      list-style: none;
+      margin-bottom: 0;
+      font-weight: 300;
+      margin: 0 1em;
+      a{
+        text-decoration: none;
+        color: #fff;
+        .menu-home{
+          width: 24px;
+          min-width: 24px;
+        }
+      }
+    }
+  }
+}

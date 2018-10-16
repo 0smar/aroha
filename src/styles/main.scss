@@ -1,0 +1,44 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:800|Roboto+Slab:300,700');
+
+/* VARIABLES */
+
+:root{
+  --primary: #FF506E;
+  --light-pink: rgba(255, 80, 110, 0.09);
+  --base-text: #272727;
+  --headers: 'Poppins';
+}
+
+/* COMPONENTS */
+
+@import 'components/header';
+@import 'components/footer';
+@import 'components/elements';
+@import 'components/buttons';
+
+/* PAGES/SECTIONS */
+
+@import 'pages/index';
+
+/* GENERAL STYLES */
+
+body{
+  font-family: 'Roboto Slab';
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: var(--headers);
+}
+
+.main-container{
+  width: 100%;
+}
+
+.content{
+  width: 95%;
+  max-width: 1024px;
+  margin: 0 auto;
+}

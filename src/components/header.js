@@ -18,20 +18,18 @@ class Header extends Component {
         <Link to="/" className="logo">
           <img src={logo} alt="Aroha Logo"/>
         </Link>
-        <ul className="menu">
+        <ul className={`menu ${this.props.menuColor}`}>
           <li>
-            <Link to="/">
-              <img className="menu-home" src={house} alt="Ir a Inicio"/>
-            </Link>
+            <Link to="/">Inicio</Link>
           </li>
           <li>
-            <Link to="/">Nosotros</Link>
+            <Link to="/nosotros">Nosotros</Link>
           </li>
           <li>
-            <Link to="/">Productos</Link>
+            <Link to="/productos">Productos</Link>
           </li>
           <li>
-            <Link to="/">Contacto</Link>
+            <Link to="/contacto">Contacto</Link>
           </li>
         </ul>
         <div className="mobile-menu">
@@ -48,13 +46,13 @@ class Header extends Component {
               <Link to="/">Inicio</Link>
             </li>
             <li>
-              <Link to="/">Nosotros</Link>
+              <Link to="/nosotros">Nosotros</Link>
             </li>
             <li>
-              <Link to="/">Productos</Link>
+              <Link to="/productos">Productos</Link>
             </li>
             <li>
-              <Link to="/">Contacto</Link>
+              <Link to="/contacto">Contacto</Link>
             </li>
           </ul>
         </div>

@@ -1,0 +1,8 @@
+.contact{
+  position: relative;
+  min-height: calc(100vh - 100px);
+  display: flex;
+  .content{
+    padding-top: 100px;
+  }
+}

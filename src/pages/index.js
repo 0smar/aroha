@@ -6,9 +6,13 @@ import Header from '../components/header'
 
 import IconWhite from '../images/icon-aroha-white.svg'
 import Icon from '../images/icon-aroha.svg'
-import lubpackage from '../images/lubpackage.jpeg'
-import prolong from '../images/prolong.jpeg'
-import sexypill from '../images/sexypill.jpeg'
+import lubmanzana from '../images/lubmanzana.png'
+import lubfresa from '../images/lubfresa.png'
+import lubuva from '../images/lubuva.png'
+import lubsandia from '../images/lubsandia.png'
+import lubpack from '../images/lubpacket.png'
+import lubman from '../images/lubman.png'
+import sexypill from '../images/sexypill.png'
 import kiss from '../images/kiss.png'
 
 const IndexPage = () => (
@@ -20,7 +24,9 @@ const IndexPage = () => (
         <a href="#">Facebook</a>
       </div>
       <div className="images-container">
-
+        <img src={lubsandia} alt="" className="lub lub1" />
+        <img src={lubmanzana} alt="" className="lub lub2" />
+        <img src={lubuva} alt="" className="lub lub3"/>
       </div>
       <div className="description-container">
         <div className="description">
@@ -41,13 +47,13 @@ const IndexPage = () => (
         <div className="products row-container">
           <div className="product">
             <div className="product-image">
-              <img src={lubpackage} alt=""/>
+              <img src={lubpack} alt=""/>
             </div>
             <div className="name">Lub Pokect 4 en 1</div>
           </div>
           <div className="product">
             <div className="product-image">
-              <img src={prolong} alt="" />
+              <img src={lubman} alt="" />
             </div>
             <div className="name">Lub Pokect 4 en 1</div>
           </div>
@@ -57,6 +63,11 @@ const IndexPage = () => (
             </div>
             <div className="name">Lub Pokect 4 en 1</div>
           </div>
+        </div>
+        <div className="to-center">
+          <a href="#" className="button primary-button">
+            Todos los productos
+          </a>
         </div>
       </div>
     </div>

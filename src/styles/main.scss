@@ -21,6 +21,8 @@
 /* PAGES/SECTIONS */
 
 @import 'pages/index';
+@import 'pages/about';
+@import 'pages/products';
 @import 'pages/contact';
 
 /* GENERAL STYLES */
@@ -28,6 +30,10 @@
 body{
   font-family: 'Roboto Slab';
   font-weight: 300;
+  ::selection{
+    background-color: var(--primary);
+    color: #fff;
+  }
 }
 
 h1, h2, h3, h4, h5{
